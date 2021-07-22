@@ -17,6 +17,8 @@ body{
 /* Header */
 .header{
     background: linear-gradient(180deg, #242B33 11.98%, rgba(45, 52, 60, 0.38) 51.04%, #242B33 92.19%), url(../Images/Header_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /* header nav */
 .header-nav{
@@ -115,7 +117,7 @@ body{
 }
 /* header content */
 .header-content{
-    padding-top: 200px;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
