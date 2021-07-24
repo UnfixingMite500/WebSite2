@@ -161,9 +161,14 @@ color: #FFFFFF;
 }
 /* main */
 .main{
-    margin-top: 120px;
+    
 }
 /* testimonials */
+.testimonials{
+    padding-top: 120px;
+    display: flex;
+    align-items: center;
+}
 .testimonials-content{
     display: flex;
     justify-content: center;
@@ -192,4 +197,16 @@ color: #FFFFFF;
     line-height: 27px;
     text-align: center;
     color: #FFFFFF;
+}
+.count{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 400px;
+    line-height: 100px;
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+    right: 0;
+    opacity: 0.02;
 }
