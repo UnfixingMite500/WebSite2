@@ -46,6 +46,15 @@
     .header-content {
         padding-top: 88px;
     }
+    .appartments__abs__descr {
+        margin: 20px;
+    }
+}
+@media(max-width:650px) {
+    .appartments__abs__descr {
+        margin: 10px;
+        font-size: 18px;
+    }
 }
 @media(max-width:530px) {
     .header-content-contacts__descr:first-child {
@@ -56,6 +65,16 @@
     }
     .testimonials-block {
         max-width: 200px;
+    }
+    .appartments__title {
+        margin-bottom: 50px;
+    }
+    .appartments__title {
+        font-size: 30px;
+    }
+    .third{
+        top: 90px;
+        font-size: 300px;
     }
 }
 @media(max-width:480px) {
@@ -87,6 +106,10 @@
         width: 60px;
         height: 60px;
     }
+    .appartments__abs__descr {
+        margin: 5px;
+        font-size: 13px;
+    }
 }
 @media(max-width:410px) {
     .header-content__title{
@@ -97,6 +120,9 @@
         font-weight: bold;
         font-size: 36px;
         line-height: 36px;
+    }
+    .third{
+        font-size: 250px;
     }
 }
 @media(max-width:330px) {

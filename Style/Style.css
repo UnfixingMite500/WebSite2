@@ -23,6 +23,7 @@ body{
 /* header nav */
 .header-nav{
     background: #242B33;
+    z-index: 10000;
 }
 
 .header__btn {
@@ -160,12 +161,12 @@ color: #FFFFFF;
     margin-right: 15px;
 }
 /* main */
-.main{
+/* .main{
     
-}
+} */
 /* testimonials */
 .testimonials{
-    padding-top: 120px;
+    margin-top: 120px;
     display: flex;
     align-items: center;
 }
@@ -207,6 +208,54 @@ color: #FFFFFF;
     text-align: center;
     color: #FFFFFF;
     position: absolute;
-    right: 0;
     opacity: 0.02;
+    z-index: -1;
+}
+.second{
+    right: 0;
+}
+/* appartments */
+.appartments{
+    position: relative;
+    margin-top: 120px;
+}
+.appartments__title{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #D4C17F;
+    margin-bottom: 100px;
+}
+.appartments__content {
+    max-width: 1110px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(100px,535px));
+    grid-gap: 30px;
+}
+.appartments__content__block{
+    position: relative;
+}
+.appartments__content__block img{
+    width: 100%;
+}
+.appartments__abs{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+.appartments__abs__descr{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin: 50px;
+}
+.third{
+    top: 138px;
+    left: 10px;
 }
