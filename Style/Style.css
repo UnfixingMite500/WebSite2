@@ -99,10 +99,6 @@ body{
 .header-nav__list{
     display: flex;
 }
-.header-nav__list.active{
-    display: flex;
-    right: 0;
-}
 .header-nav__link{
     font-family: 'Raleway';
     font-style: normal;
@@ -111,12 +107,12 @@ body{
     line-height: 16px;
     letter-spacing: 0.05em;
     color: #FFFFFF;
-    margin-right: 40px !important;
+    margin-right: 40px;
 }
 .header-nav__link:hover{
     text-shadow: 0 0 10px #fff;
 }
-.header-nav__link:last-child{
+.mr0{
     margin-right: 0;
 }
 /* header content */

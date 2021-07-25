@@ -27,8 +27,12 @@
         transition: 0.4s linear;
         background: #242B33;
     }
+    .header-nav__list.active{
+        display: flex;
+        right: 0;
+    }
     .header-nav__link{
-        margin-right: 0;
+        padding-right:0;
         padding: 10px;
     }
     .testimonials-content {
