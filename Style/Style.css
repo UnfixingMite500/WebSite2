@@ -111,7 +111,10 @@ body{
     line-height: 16px;
     letter-spacing: 0.05em;
     color: #FFFFFF;
-    margin-right: 40px;
+    margin-right: 40px !important;
+}
+.header-nav__link:hover{
+    text-shadow: 0 0 10px #fff;
 }
 .header-nav__link:last-child{
     margin-right: 0;
