@@ -258,3 +258,7 @@ color: #FFFFFF;
     top: 138px;
     left: 10px;
 }
+/* cta */
+.cta{
+    background: url(../Images/cta_bg.png);
+}

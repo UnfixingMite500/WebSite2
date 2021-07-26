@@ -19,7 +19,7 @@
         position: fixed;
         height: 100%;
         right: -100%;
-        top: 88px;
+        top: 80px;
         width: 240px;
         flex-direction: column;
         padding-top: 30px;
@@ -32,8 +32,8 @@
         right: 0;
     }
     .header-nav__link{
-        padding-right:0;
         padding: 10px;
+        margin-right: 0;
     }
     .testimonials-content {
         flex-wrap: wrap;
