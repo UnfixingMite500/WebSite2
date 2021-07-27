@@ -108,6 +108,7 @@ body{
     letter-spacing: 0.05em;
     color: #FFFFFF;
     margin-right: 40px;
+    display: block;
 }
 .header-nav__link:hover{
     text-shadow: 0 0 10px #fff;
@@ -422,4 +423,27 @@ color: #FFFFFF;
 .cta-bottom-form__input{
     display: flex;
     justify-content: space-between;
+}
+/* footer */
+.footer{
+    margin-top: 180px;
+    background: #2D343C;
+}
+.footer__content{
+    padding: 72px 0 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-nav__list{
+    display: flex;
+    flex-direction: column;
+}
+.footer-nav__list__info{
+    display: flex;
+    flex-direction: column;
+}
+.footer-nav__link{
+    display: block;
+    margin-bottom: 15px;
+    margin-right: 0;
 }
