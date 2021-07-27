@@ -119,9 +119,6 @@
     .header-content-contacts__descr{
         padding: 10px;
     }
-    .fa-mouse-alt {
-        margin: 50px 0 100px;
-    }
 
 }
 @media(max-width:430px) {

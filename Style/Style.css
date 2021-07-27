@@ -120,7 +120,7 @@ body{
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: column;
 }
 .header-content__title{
@@ -135,7 +135,6 @@ body{
     color: #D4C17F;
 }
 .fa-mouse-alt{
-    margin: 100px 0 200px;
     font-size: 40px;
     color: #D4C17F;
 }
@@ -363,4 +362,15 @@ color: #FFFFFF;
 }
 .fourth{
     right: 0;
+}
+/* maps */
+.maps{
+    position: relative;
+    margin-top: 180px;
+}
+.maps__title{
+    margin-bottom: 100px;
+}
+.five{
+    top: 180px;
 }
